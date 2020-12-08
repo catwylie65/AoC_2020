@@ -20,8 +20,5 @@ for group in p:
   for letter in counters.keys():
     if counters[letter] == len(group):
       total += 1
-
-  # print(group)
-  # print(len(group))
-
+      
 print(total)
